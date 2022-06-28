@@ -5,10 +5,14 @@
 brew leaves | xargs -n1 brew desc
 ```
 
-2. Start emulator<br />
-ionic cordova run android  -l --target="ionic_emulator_1"
+2. Update Homebrew<br />
+```
+brew update
+```
 
-2. Start app in browser with console log<br />
-ionic serve -c
+2. Upgrade packages<br />
+```
+brew upgrade <pakages_name>
+```
 
 
