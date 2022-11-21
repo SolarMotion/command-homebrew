@@ -2,7 +2,7 @@
 
 1. List installed<br />
 ```
-brew leaves | xargs -n1 brew desc
+brew leaves | xargs -n1 brew desc --eval-all
 ```
 
 2. Update Homebrew<br />
