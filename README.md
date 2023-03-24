@@ -1,16 +1,26 @@
 # Homebrew commands
 
-1. List installed<br />
+List installed<br />
 ```
 brew leaves | xargs -n1 brew desc --eval-all
 ```
 
-2. Update Homebrew<br />
+Check for updates<br />
 ```
 brew update
 ```
 
-2. Upgrade packages<br />
+List of outdated<br />
+```
+brew outdated
+```
+
+Upgrade all package<br />
+```
+brew upgrade
+```
+
+Upgrade package<br />
 ```
 brew upgrade <pakages_name>
 ```
